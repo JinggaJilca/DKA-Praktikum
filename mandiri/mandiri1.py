@@ -1,0 +1,1 @@
+print("Masukkan nama mahasiswa  : ")
