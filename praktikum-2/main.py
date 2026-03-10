@@ -62,3 +62,23 @@ print("Tipe data x:", x.dtype)
 
 x = np.array(["apple", "banana", "cherry"], dtype=np.str_) 
 print("Tipe data x:", x.dtype) 
+
+# ones
+x = np.ones((3, 4)) 
+ 
+print(x) 
+
+# empty
+x = np.empty((2, 2)) 
+print(x) 
+
+# linspace
+x = np.linspace(0, 1, 5)  
+print(x) 
+
+# Random
+x = np.random.randint(0, 10, size=(3, 4)) 
+print(x) 
+
+
+# Menambahkan elemen array
