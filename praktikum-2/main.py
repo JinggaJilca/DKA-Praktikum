@@ -82,3 +82,12 @@ print(x)
 
 
 # Menambahkan elemen array
+# Array 1D
+a = np.array([1, 2, 5])
+a = np. append( [a], [4, 5])
+print("array a setelah append:", a)
+
+# Array 2D
+ab = np.array([[1, 2, 5], [5, 10, 70]])
+ab = np.append(ab, [[4, 5, 10]], axis=0)
+print("array ab stlh append", ab)
