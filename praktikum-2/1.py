@@ -43,3 +43,7 @@ if len(hasil) > 0:
             print("Nama: ", h['Nama'] , ", NIM: ", h['NIM'], ", Nilai: ", h['Nilai'], ", Tahun Masuk: ", h['TahunMasuk'])
 else:
      print("Data tidak ditemukan")
+
+
+
+     
