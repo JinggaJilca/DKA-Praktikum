@@ -25,7 +25,7 @@ print(z.tolist()) #untuk menampilkan elemen dengan pemisah ,
 # Penggunan ndim
 a = np.array([85,90,75,30])
 print("Dimensi Array a: ", a.ndim)
-print("Sape a: ", a.shape)
+print("Shape a: ", a.shape)
 
 b = np.array([[85,90,75,30], [56,78,23,23]])
 print("Dimensi Array b: ", b.ndim)
